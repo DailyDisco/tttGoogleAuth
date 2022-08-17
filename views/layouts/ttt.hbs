@@ -1,0 +1,65 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta HTTP-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--   <title>replit</title> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"            rel="stylesheet">
+
+    <link rel="shortcut icon" href="#">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+  </head>
+
+  <body>
+
+    <main class="background">
+      <section class="title">
+        <h1>Tic-Tac-Toe</h1>
+      </section>
+        <!-- Show whose turn it is -->
+        <section class="display">
+                Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <!-- Tic-Tac-Toe Grid -->
+        <section class="container">
+          <!-- Row 01 -->
+          <div class="row row-01">
+            <div class="tile tile-00" data-index="0"></div>
+            <div class="tile tile-01" data-index="1"></div>
+            <div class="tile tile-02" data-index="2"></div>
+          </div>
+          <!-- Row 02 -->
+          <div class="row row-02">
+            <div class="tile tile-03" data-index="3"></div>
+            <div class="tile tile-04" data-index="4"></div>
+            <div class="tile tile-05" data-index="5"></div>
+          </div>
+          <!-- Row 03 -->
+          <div class="row row-03">
+            <div class="tile tile-06" data-index="6"></div>
+            <div class="tile tile-07" data-index="7"></div>
+            <div class="tile tile-08" data-index="8"></div>
+          </div>
+        </section>
+      <section class="display announcer hide"></section>
+          <div class="section">
+            <a href="/login/google" class="btn red darken-1">
+              <i class="fab fa-google left"></i>Log In With google
+            </a>
+          </div>
+      
+    </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "tttgoogleauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-session": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-hbs": "^2.4.0",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "memorystore": "^1.6.7","method-override": "^3.0.0",
+    "mongoose": "^6.5.2",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7"  
+  }
+}
